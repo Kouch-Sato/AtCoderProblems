@@ -1,7 +1,5 @@
 require 'prime'
 
-
-
 n, m = gets.chomp.split.map(&:to_i)
 f = m.prime_division
 l = f.length
