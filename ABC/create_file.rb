@@ -1,7 +1,7 @@
 number = gets.chomp
-Dir.mkdir("./ABC/#{number}")
+Dir.mkdir("./#{number}")
 array = %w(A B C D E F)
 array.each do |k|
-  file_path = "./ABC/#{number}/#{number}#{k}.rb"
+  file_path = "./#{number}/#{number}#{k}.rb"
   File.open(file_path, 'w')
 end
